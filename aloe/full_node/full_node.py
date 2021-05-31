@@ -181,7 +181,7 @@ class FullNode:
             dns_servers = self.config["dns_servers"]
         elif self.config["port"] == 8444:
             # If `dns_servers` misses from the `config`, hardcode it if we're running mainnet.
-            dns_servers.append("dns-introducer.aloe.net")
+            dns_servers.append("dns-introducer.aloecoin.org")
         try:
             self.full_node_peers = FullNodePeers(
                 self.server,
@@ -1352,7 +1352,7 @@ class FullNode:
                 f"Added unfinished_block {block_hash}, not farmed by us,"
                 f" SP: {block.reward_chain_block.signage_point_index} farmer response time: "
                 f"{time.time() - self.signage_point_times[block.reward_chain_block.signage_point_index]}, "
-                f"Pool pk {encode_puzzle_hash(block.foliage.foliage_block_data.pool_target.puzzle_hash, 'xch')}, "
+                f"Pool pk {encode_puzzle_hash(block.foliage.foliage_block_data.pool_target.puzzle_hash, 'aloe')}, "
                 f"validation time: {validation_time}, "
                 f"cost: {block.transactions_info.cost if block.transactions_info else 'None'}"
                 f"{percent_full_str}"

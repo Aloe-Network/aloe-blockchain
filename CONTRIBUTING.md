@@ -7,7 +7,7 @@ A lot of fascinating new cryptography and blockchain concepts are used and imple
 This repo includes the code for the Aloe full node, farmer, and timelord (in aloe folder), which are all written in python.
 It also includes a verifiable delay function implementation that it imports from the [aloevdf repo](https://github.com/Aloe-Network/aloevdf) (in c/c++), and a proof of space implementation that it imports from the [aloepos repo](https://github.com/Aloe-Network/aloepos). BLS signatures are imported from the [bls-signatures repo](https://github.com/Aloe-Network/bls-signatures) as blspy. There is an additional dependency on the [aloebip158 repo](https://github.com/Aloe-Network/aloebip158). For major platforms, binary and source wheels are shipped to PyPI from each dependent repo. Then aloe-blockchain can pip install those from PyPI or they can be prepackaged as is done for the Windows installer. On unsupported platforms, pip will fall back to the source distributions, to be compiled locally.
 
-If you want to learn more about this project, read the [wiki](https://github.com/Aloe-Network/aloe-blockchain/wiki), or check out the [green paper](https://www.aloe.net/assets/AloeGreenPaper.pdf).
+If you want to learn more about this project, read the [wiki](https://github.com/Aloe-Network/aloe-blockchain/wiki), or check out the [white paper](https://www.aloecoin.org/white-paper).
 
 ## Contributions
 

@@ -42,10 +42,10 @@ dev_dependencies = [
 
 kwargs = dict(
     name="aloe-blockchain",
-    author="Mariano Sorgente",
-    author_email="mariano@aloe.net",
+    author="Shane Cravens",
+    author_email="shane@aloecoin.org",
     description="Aloe blockchain full node, farmer, timelord, and wallet.",
-    url="https://aloe.net/",
+    url="https://aloecoin.org/",
     license="Apache License",
     python_requires=">=3.7, <4",
     keywords="aloe blockchain node",

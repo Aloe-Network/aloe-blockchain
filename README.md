@@ -1,6 +1,6 @@
 # aloe-blockchain
 
-![Alt text](https://www.aloe.net/img/aloe_logo.svg)
+![Alt text](https://www.aloecoin.org/img/aloe_logo.svg)
 
 | Current Release/main | Development Branch/dev |
 |         :---:          |          :---:         |
@@ -14,7 +14,7 @@ Aloe is a modern cryptocurrency forked from Chia, designed to be efficient, dece
 * Simplified UTXO based transaction model, with small on-chain state
 * Lisp-style Turing-complete functional [programming language](https://aloelisp.com/) for money related use cases
 * BLS keys and aggregate signatures (only one signature per block)
-* [Pooling protocol](https://www.aloe.net/2020/11/10/pools-in-aloe.html) (in development) that allows farmers to have control of making blocks
+* [Pooling protocol](https://www.aloecoin.org/pools.html) (in development) that allows farmers to have control of making blocks
 * Support for light clients with fast, objective syncing
 * A growing community of farmers and developers around the world
 

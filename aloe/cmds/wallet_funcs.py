@@ -130,15 +130,15 @@ async def print_balances(args: dict, wallet_client: WalletRpcClient, fingerprint
             print(f"Wallet ID {wallet_id} type {typ}")
             print(
                 f"   -Total Balance: {balances['confirmed_wallet_balance']/units['aloe']} {address_prefix} "
-                f"({balances['confirmed_wallet_balance']} mojo)"
+                f"({balances['confirmed_wallet_balance']} pups)"
             )
             print(
                 f"   -Pending Total Balance: {balances['unconfirmed_wallet_balance']/units['aloe']} {address_prefix} "
-                f"({balances['unconfirmed_wallet_balance']} mojo)"
+                f"({balances['unconfirmed_wallet_balance']} pups)"
             )
             print(
                 f"   -Spendable: {balances['spendable_balance']/units['aloe']} {address_prefix} "
-                f"({balances['spendable_balance']} mojo)"
+                f"({balances['spendable_balance']} pups)"
             )
 
 
@@ -181,7 +181,7 @@ async def get_wallet(wallet_client: WalletRpcClient, fingerprint: int = None) ->
             use_cloud = True
             if "backup_path" in log_in_response:
                 path = log_in_response["backup_path"]
-                print(f"Backup file from backup.aloe.net downloaded and written to: {path}")
+                print(f"Backup file from backup.aloecoin.org downloaded and written to: {path}")
                 val = input("Do you want to use this file to restore from backup? (Y/N) ")
                 if val.lower() == "y":
                     log_in_response = await wallet_client.log_in_and_restore(fingerprint, path)

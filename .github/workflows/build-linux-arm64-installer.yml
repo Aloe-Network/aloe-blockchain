@@ -59,8 +59,8 @@ jobs:
             echo "Emulating install.sh" && \
             pip install --upgrade pip && \
             pip install wheel && \
-            pip install --extra-index-url https://pypi.aloe.net/simple/ miniupnpc==2.1 && \
-            pip install . --extra-index-url https://pypi.aloe.net/simple/ && \
+            pip install --extra-index-url https://pypi.aloecoin.org/simple/ miniupnpc==2.1 && \
+            pip install . --extra-index-url https://pypi.aloecoin.org/simple/ && \
             ldd --version && \
             cd build_scripts && \
             sh build_linux.sh arm64 \
