@@ -1,6 +1,6 @@
 # aloe-blockchain
 
-![Alt text](https://www.aloecoin.org/img/aloe_logo.svg)
+![Alt text](https://www.aloecoin.org/s/aloe_logo.png)
 
 | Current Release/main | Development Branch/dev |
 |         :---:          |          :---:         |
